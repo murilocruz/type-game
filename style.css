@@ -1,0 +1,38 @@
+html,body {
+    min-height: 100%;
+    margin: 0px;
+}
+
+body {
+    background: rgb(0, 32, 42);
+    color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#char {
+    border: 2px solid floralwhite;
+    min-width: 12rem;
+    min-height: 12rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fira Mono","Consolas", "Courier", "Lucida", monospace;
+    font-size: 8rem;
+}
+
+#feedback {
+    border: 2px solid floralwhite;
+    min-width: 12rem;
+    min-height: 12rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fira Mono","Consolas", "Courier", "Lucida", monospace;
+    font-size: 8rem;
+}
